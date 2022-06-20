@@ -1,8 +1,8 @@
 package evdoo.moneyplanner.domain
 
 data class BudgetItem(
-    var id: Int,
     val title: String,
     val all: Double,
-    val spent: Double
+    val spent: Double,
+    var id: Int = -1
 )
